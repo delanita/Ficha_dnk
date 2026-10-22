@@ -1,0 +1,39 @@
+.ficha-dnk{max-width:700px;width:100%;box-sizing:border-box;margin:20px auto;background:#111;color:#d5d0c5;border:1px solid #806638;padding:12px;font-family:Georgia,serif;line-height:1.5}
+.ficha-dnk *{box-sizing:border-box}
+.ficha-dnk-cabecera{text-align:center;background:#090909;border-bottom:2px solid #a1844c;padding:12px 8px;margin:-12px -12px 0}
+.ficha-dnk-sobretitulo{font-size:10px;letter-spacing:3px;color:#b99b63;text-transform:uppercase}
+.ficha-dnk-titulo{font-size:24px;color:#e5d3a8;letter-spacing:1px;font-weight:bold}
+.ficha-dnk-subtitulo{font-size:12px;color:#b99b63;font-style:italic}
+.ficha-dnk-banner{margin:0 -12px 12px;border-bottom:1px solid #806638;background:#000;overflow:hidden;position:relative}
+.ficha-dnk-banner img{display:block;width:100%;max-height:220px;object-fit:cover;object-position:center;opacity:.9}
+.ficha-dnk-banner-degradado{position:absolute;bottom:0;left:0;right:0;height:40px;background:linear-gradient(to top,#111,transparent)}
+.ficha-dnk-perfil{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:12px;background:#0c0c0c;border:1px solid #2b251b;padding:8px}
+.ficha-dnk-avatar-contenedor{flex:0 0 170px;margin:auto;text-align:center}
+.ficha-dnk-marco-avatar{border:1px solid #806638;padding:3px;background:#090909}
+.ficha-dnk-marco-avatar img{display:block;width:100%;max-width:160px;height:auto;margin:auto;object-fit:cover}
+.ficha-dnk-nombre-avatar{font-size:9px;color:#b99b63;letter-spacing:1px;margin-top:4px;text-transform:uppercase}
+.ficha-dnk-datos{flex:1;min-width:260px;display:flex;flex-direction:column;justify-content:center;font-size:12px}
+.ficha-dnk-encabezado-datos{font-size:13px;color:#e5d3a8;font-weight:bold;letter-spacing:1px;border-bottom:1px solid #806638;padding-bottom:3px;margin-bottom:4px}
+.ficha-dnk-fila{display:flex;border-bottom:1px solid #24201a;padding:3px 4px}
+.ficha-dnk-fila:last-child{border-bottom:0}
+.ficha-dnk-fila span:first-child{width:32%;flex-shrink:0;color:#b99b63;font-weight:bold}
+.ficha-dnk-fila span:last-child{flex:1;min-width:0}
+.ficha-dnk-seccion-titulo{font-size:14px;color:#e5d3a8;font-weight:bold;letter-spacing:1px;border-bottom:1px solid #806638;padding:3px 0;margin:12px 0 6px}
+.ficha-dnk-texto{font-size:12.5px;line-height:1.6;text-align:justify;color:#ccc6b8;padding:0 4px}
+.ficha-dnk-titulo-dominio{margin:14px 0 8px}
+.ficha-dnk-triangulo{display:flex;flex-wrap:wrap;gap:8px;text-align:center}
+.ficha-dnk-dominio{flex:1;min-width:110px;border:1px solid #806638;padding:8px 4px;background:#090909}
+.ficha-dnk-dominio-nombre{color:#e5d3a8;font-weight:bold;font-size:12px}
+.ficha-dnk-dominio-descripcion{font-size:10px;color:#b99b63;margin-bottom:3px}
+.ficha-dnk-rango{font-size:15px;color:#f0e4c8;font-weight:bold}
+.ficha-dnk-dominio:last-child .ficha-dnk-rango{color:#e5d3a8}
+.ficha-dnk-regla{margin-top:8px;padding:6px 10px;border-left:2px solid #a1844c;background:#090909;font-size:11.5px;color:#b99b63}
+.ficha-dnk-regla b{color:#e5d3a8}
+.ficha-dnk-pie{border-top:1px solid #806638;margin-top:12px;padding-top:8px;text-align:center;font-size:10px;letter-spacing:2px;color:#b99b63;text-transform:uppercase}
+@media(max-width:480px){
+.ficha-dnk-perfil{flex-direction:column}
+.ficha-dnk-avatar-contenedor{flex-basis:auto;width:100%;max-width:170px}
+.ficha-dnk-datos{width:100%;min-width:0}
+.ficha-dnk-fila span:first-child{width:32%}
+.ficha-dnk-titulo{font-size:20px}
+}
